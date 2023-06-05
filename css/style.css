@@ -55,12 +55,18 @@ body {
     .sidenav a {
         font-size: 18px;
     }
-    .list{
+
+    .list {
         flex-direction: column;
     }
+
     .logo img {
         width: 270px;
         height: 80px;
+    }
+
+    .banner .banner__content {
+        width: 100% !important;
     }
 }
 
