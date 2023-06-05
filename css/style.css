@@ -1,0 +1,122 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "-apple-system, BlinkMacSystemFont, Segoe UI ,Roboto, Helvetica Neue ,Arial, Noto Sans ,sans-serif, Apple Color Emoji , Segoe UI Emoji , Segoe UI Symbol , Noto Color Emoji ";
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    width: 100%;
+
+}
+
+.sidenav {
+    height: 100%;
+    min-width: 150px;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #191718;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #AAAAAA;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    text-align: left;
+    padding: 0 20px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+@media screen and (max-width: 450px) {
+    .sidenav {
+        padding-top: 15px;
+        width: 100px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.container {
+    height: 100%;
+    width: 85%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+
+}
+
+.logo .logo__red {
+    color: red
+}
+
+.banner {
+    margin-top: 30px;
+    width: 100%;
+    min-height: 20vh;
+    max-height: 40vh;
+    background: #EFEFEF;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h1 {
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.banner .banner__content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px
+}
+
+.list .list__content-img {
+    float: left;
+}
+
+.list .list__content-text {
+    word-wrap: break-word;
+    word-break: break-all;
+    width: 50%;
+}
