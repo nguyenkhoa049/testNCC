@@ -108,15 +108,17 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    gap: 50px
+    gap: 50px;
+    margin-top: 40px;
 }
 
 .list .list__content-img {
     float: left;
+    margin-top: 18px;
 }
 
-.list .list__content-text {
+.list .text {
     word-wrap: break-word;
     word-break: break-all;
-    width: 50%;
+    margin-top: 18px;
 }
